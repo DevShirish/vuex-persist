@@ -15,7 +15,7 @@
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/championswimmer/vuex-persist.git"
+    "url": "git+https://github.com/DevShirish/vuex-persist.git"
   },
   "scripts": {
     "doc:clean": "rimraf docs",
@@ -46,12 +46,12 @@
     "persist",
     "localstorage"
   ],
-  "author": "Arnav Gupta <championswimmer@gmail.com>",
+  "author": "Arnav Gupta <DevShirish@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/championswimmer/vuex-persist/issues"
+    "url": "https://github.com/DevShirish/vuex-persist/issues"
   },
-  "homepage": "https://github.com/championswimmer/vuex-persist#readme",
+  "homepage": "https://github.com/DevShirish/vuex-persist#readme",
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/lodash": "^4.6.4",
