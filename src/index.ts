@@ -6,7 +6,8 @@ import { AsyncStorage } from './AsyncStorage'
 import { MockStorage } from './MockStorage'
 import { PersistOptions } from './PersistOptions'
 import SimplePromiseQueue from './SimplePromiseQueue'
-import { merge, MergeOptionType } from './utils'
+import { merge } from './utils'
+import deepmerge from "deepmerge"
 
 let FlattedJSON = JSON
 
@@ -25,7 +26,7 @@ export class VuexPersistence<S> implements PersistOptions<S> {
   public modules: string[]
   public strictMode: boolean
   public supportCircular: boolean
-  public mergeOption: MergeOptionType
+  public mergeOption: deepmerge.Options
 
   /**
    * The plugin function that can be used inside a vuex store.
